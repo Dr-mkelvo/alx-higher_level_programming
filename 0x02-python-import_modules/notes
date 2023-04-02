@@ -1,0 +1,37 @@
+modules - file containing python definations and statements.
+Within a module, thr module's name is available as the value of the global variable __name__
+Modules can contain executables statements as well as functon definations.
+
+USAGE
+modulename.itemname
+
+from modulename import mod1, mod2, modn as xyz 
+//You can't import several mods as xyz
+
+import * will import all mods except those that begin with (__)
+
+EXCECUTION
+python modele.py <args>
+the __name__ will be set to "__main__"
+
+EXAMPLE 
+
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
+
+RUN
+python fibo.py 50
+
+Complied mods are cached in __pycache__
+
+dir() function
+dir(module_name)
+dir(defined_names)
+
+
+PACKAGES
+Are ways of structuring python's modules namespace by using
+"dotted module names"
+__init__.py files are requried to make python treat directories containing
+the files as packages.

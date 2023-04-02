@@ -2,10 +2,10 @@
 if __name__ == "__main__":
     import sys
     argv = sys.argv[1:]
-    argv_count = len(argv)
+    argv_counter = len(argv)
     index = 1
-    res = 0
-    while index <= argv_count:
-        res += int(sys.argv[index])
+    result = 0
+    while index <= argv_counter:
+        results += int(sys.argv[index])
         index += 1
-    print("{:d}".format(res))
+    print("{:d}".format(results))
