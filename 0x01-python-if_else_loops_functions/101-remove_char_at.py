@@ -1,10 +1,10 @@
 def remove_char_at(str, n):
     new_string = ""
+    i = 0
 
-    for i in range(len(str)):
+    for letter in str:
         if i != n:
-            new_string += str[i]
-        else:
-            continue
+            new_string += letter
+        i +=1
 
     return new_string
