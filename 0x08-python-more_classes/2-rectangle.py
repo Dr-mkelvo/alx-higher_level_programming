@@ -5,14 +5,14 @@
 class Rectangle:
     """Methods creation"""
 
-    def __init__(self, width = 0, height = 0) :
+    def __init__(self, width=0, height=0):
         """Initialization
 
         Args:
             width: Rectangle's width.
             height: Rectangle's height.
         """
-        
+
         self.width = width
         self.height = height
 
