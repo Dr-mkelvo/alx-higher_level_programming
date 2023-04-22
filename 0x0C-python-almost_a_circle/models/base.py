@@ -4,6 +4,7 @@ import csv
 import turtle
 import json
 
+
 class Base:
     """Representing the base model class
 
