@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Defining a class(base model)"""
-import json, csv, turtle
+import csv
+import turtle
+import json
 
 class Base:
     """Representing the base model class
@@ -141,12 +143,11 @@ class Base:
 
     @staticmethod
     def draw(list_rectangles, list_squares):
-    #     """Draw Rectangles and Squares using the turtle module.
-
-    #     Args:
-    #         list_rectangles (list): A list of Rectangle objects to draw.
-    #         list_squares (list): A list of Square objects to draw.
-    #     """
+        """Use turtle module to draw Rectangles and Squares
+        Args:
+            list_rectangles(list): Rectangles to be drawn
+            list_squares(list)Squares to be drawn
+        """
         turt = turtle.Turtle()
         turt.screen.bgcolor("#b7312c")
         turt.pensize(3)
