@@ -4,6 +4,9 @@
 
 def add_integer(a, b=98):
     """
+    args:
+        a(int/float): First number
+        b(int/float): Second number
     """
     if ((not isinstance(a, int) and not isinstance(a, float))):
         raise TypeError("a must be an integer")
