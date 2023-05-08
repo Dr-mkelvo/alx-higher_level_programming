@@ -1,13 +1,11 @@
-0x00-python-hello_world
 
-I learnt the following:
-1. Why Python programming is awesome
-2. Who created Python
-3. Who is Guido van Rossum
-4. Where does the name ‘Python’ come from
-5. What is the Zen of Python
-6. How to use the Python interpreter
-7. How to print text and variables using print
-8. How to use strings
-9. What are indexing and slicing in Python
-10. What is the official Python coding style and how to check your code with pycodestyle
+#Project_Hello_World:
+It contains the following:
+1. Shell Script to run variables stored in env variable
+2. Using \ escape character in strings
+3. Using str.format()
+4. Various data types -int, float, string, boolean
+5. String manipulation 
+6. Using Linked list, (C programming)
+7. Using modules 
+8. Shell scripting to compile a python file stored in an env variable
