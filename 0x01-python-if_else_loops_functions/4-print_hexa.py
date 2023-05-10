@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for num in range(98):
-    print("{} = {}".format(num, hex(num)))
+for special_numbers in range(98):
+    print("{} = {}".format(special_numbers, hex(special_numbers)))

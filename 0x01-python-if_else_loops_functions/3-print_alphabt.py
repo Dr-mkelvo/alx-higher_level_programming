@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i == 101 or i == 113:
+for my_letter in range(97, 123):
+    if my_letter == 101 or my_letter == 113:
         continue
-    print("{}".format(chr(i)), end = "")
+    print("{}".format(chr(my_letter)), end=" ")
