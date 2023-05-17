@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+import none
+
+
 def multiple_returns(sentence):
     for element in sentence:
         if len(sentence) == 0:
