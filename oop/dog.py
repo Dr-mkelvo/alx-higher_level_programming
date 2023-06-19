@@ -7,7 +7,6 @@ class Dog:
 
     def bark(self):
         print("{} can bark".format(self.name))
-
     def eat(self):
         print("{} can eat".format(self.name))
 
